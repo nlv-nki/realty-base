@@ -14,5 +14,14 @@ padding-top: 10px;
   list-style-type: none;
   color: #fff;
   font-size: 18px;
+  height: 30px;
+
+}
+
+
+.main-nav__item.active {
+  border-bottom-width: 10px;
+  border-bottom-color: #fff;
+  border-bottom-style: double;
 
 }
