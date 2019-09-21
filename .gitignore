@@ -11,5 +11,7 @@ ehthumbs.db
 Thumbs.db
 _config.yml
 node_modules
+public
+data
 yarn.lock
 package-lock.json
