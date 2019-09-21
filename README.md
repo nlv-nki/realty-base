@@ -1,1 +1,1 @@
-# Личный проект «realty-base»
+# Лэндинг «realty-base»
