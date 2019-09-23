@@ -1,7 +1,7 @@
 .promo-player {
  // outline: 1px solid red;
   //height: 800px;
-  margin-bottom: 150px;
+  margin-bottom: 100px;
   width: 1200px;
   display: flex;
   position: relative;
@@ -39,3 +39,11 @@
 
 
 
+.promo-player__text-content {
+  h2 {
+    font-size: 1.8em;
+  }
+  p {
+    font-size: 1.8em;
+  }
+}

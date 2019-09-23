@@ -4,14 +4,19 @@
 
 }
 
+
+.service__title {
+  font-size: 2em;
+}
+
 .service__title:before {
   position: relative;
   content: '';
-  background-color: #ffb600;
+  background-color: $main-color;
   display: inline-block;
-  color: #ffb600;
+  color: $main-color;
   width: 5px;
-  height: 35px;
+  height: 50px;
   margin-right: 25px;
   top: 10px;
 }
