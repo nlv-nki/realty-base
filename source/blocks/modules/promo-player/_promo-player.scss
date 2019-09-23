@@ -1,0 +1,41 @@
+.promo-player {
+ // outline: 1px solid red;
+  //height: 800px;
+  margin-bottom: 150px;
+  width: 1200px;
+  display: flex;
+  position: relative;
+}
+
+.promo-player__bg {
+  background-color: #ffb600;
+ // outline: 1px solid green;
+  height: 476px;
+  width: 850px;
+  position: absolute;
+  left: 150px;
+  /* z-index: -1; */
+  margin-top: -30px;
+ }
+
+ .promo-player__video-content {
+  background-color: black;
+  padding-left: 30px;
+  padding-top: 50px;
+  padding-right: 100px;
+  height: 500px;
+}
+
+ .promo-player__text-content,
+.promo-player__video-content {
+  z-index: 5;
+}
+
+.promo-player__img {
+  width: 800px;
+  height: 450px;
+ }
+
+
+
+
