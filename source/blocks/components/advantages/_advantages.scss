@@ -2,7 +2,7 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  width: 1220px;
+  width: 1020px;
 
   &__item {
     width: 300px;
@@ -49,6 +49,13 @@
 
   .advantages__text {
     font-size: 1em;
+  }
+
+}
+
+@media (max-width: 968px) {
+  .advantages {
+    width: 768px;
   }
 
 }
