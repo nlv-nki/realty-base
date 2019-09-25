@@ -1,0 +1,54 @@
+.advantages {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 1220px;
+
+  &__item {
+    width: 300px;
+    height: 215px;
+    margin: 35px 15px;
+   // outline: 1px solid green;
+  }
+
+  &__logo {
+    width: 200px;
+    height: 200px;
+    margin-bottom: 15px;
+   // outline: 1px solid red;
+  }
+
+  &__logo--one {
+    background-image:url(../img/images/promo-service_sprite.png);
+  }
+
+  &__logo--two {
+    background-image:url(../img/images/promo-service_sprite.png);
+    background-position: -420px 0;
+  }
+
+  &__logo--three {
+    background-image:url(../img/images/promo-service_sprite.png);
+    background-position: -840px 0;
+  }
+
+  &__logo--four {
+    background-image:url(../img/images/promo-service_sprite.png);
+    background-position: 0 210px;
+  }
+
+  &__logo--five {
+    background-image:url(../img/images/promo-service_sprite.png);
+    background-position: -410px 210px;
+  }
+
+  &__logo--six {
+    background-image:url(../img/images/promo-service_sprite.png);
+    background-position: -830px 210px;
+  }
+
+  .advantages__text {
+    font-size: 1em;
+  }
+
+}
