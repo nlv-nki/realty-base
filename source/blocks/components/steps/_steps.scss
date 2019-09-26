@@ -1,0 +1,39 @@
+.steps {
+  display: flex;
+
+}
+.steps__item {
+width: 280px;
+//height: 420px;
+margin: 20px;
+padding-top: 270px;
+padding-left: 15px;
+padding-right: 5px;
+background-color: #69655c;
+background-repeat: no-repeat;
+}
+
+.steps__item-text {
+  color: #fff;
+  font-size: 0.9em;
+}
+
+.steps__item--one {
+  background-image: url(../img/images/about-service.png);
+  background-position: -15px 0px;
+
+}
+.steps__item--two {
+  background-image: url(../img/images/about-service.png);
+  background-position: -300px 0px;
+}
+.steps__item--three {
+  background-image: url(../img/images/about-service.png);
+  background-position: -600px 0px;
+}
+.steps__item--four {
+  background-image: url(../img/images/about-service.png);
+  background-position: -900px 0px;
+}
+
+
