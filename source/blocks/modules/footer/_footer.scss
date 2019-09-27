@@ -1,10 +1,13 @@
 .footer {
-  height: 200px;
-  background-color: #080707;
-  padding: 40px;
   width: 100%;
+  padding: 80px 0px;
+  background-color: #080707;
     .main-nav__item.active {
       border-bottom-style:none;
+    }
+
+    &__content {
+      height: 100px;
     }
   .main-nav {
     margin: 0 auto;
