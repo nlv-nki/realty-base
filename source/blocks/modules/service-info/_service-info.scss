@@ -1,4 +1,19 @@
 .service-info {
-  margin: 0 auto;
-  width: 1000px;
+ // margin: 0 auto;
+  position: relative;
+  width: 100%;
+  margin-bottom: 50px;
+  .section-title {
+    text-align: center;
+    margin-right: 280px;
+  }
+}
+
+.service-info__bg {
+  position: absolute;
+  z-index: -1;
+  top: 300px;
+  background-color: #000;
+  width: 100%;
+  height: 280px;
 }
