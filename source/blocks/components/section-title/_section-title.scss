@@ -1,18 +1,19 @@
 
 .section-title {
   font-size: 2em;
+  padding-left: 5px;
   margin-bottom: 30px;
- // text-align: center;
+  border-left: 5px solid #ffb600;
 }
 
-.section-title:before {
-  position: relative;
-  content: '';
-  background-color: $main-color;
-  display: inline-block;
-  color: $main-color;
-  width: 5px;
-  height: 50px;
-  margin-right: 25px;
-  top: 10px;
-}
+// .section-title:before {
+//   position: relative;
+//   content: '';
+//   background-color: $main-color;
+//   display: inline-block;
+//   color: $main-color;
+//   width: 5px;
+//   height: 50px;
+//   margin-right: 25px;
+//   top: 10px;
+// }

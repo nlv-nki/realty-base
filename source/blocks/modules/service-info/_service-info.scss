@@ -1,11 +1,10 @@
 .service-info {
- // margin: 0 auto;
   position: relative;
   width: 100%;
   margin-bottom: 50px;
   .section-title {
-    text-align: center;
-    margin-right: 280px;
+    width: 950px;
+    margin: 0 auto;
   }
 }
 
@@ -16,4 +15,22 @@
   background-color: #000;
   width: 100%;
   height: 280px;
+}
+
+/* tablet version style; display < 1000px  */
+@media (max-width: 1024px) {
+  .service-info  {
+    .steps {
+      width: 768px;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    .section-title {
+      width: auto;
+    }
+    .service-info__bg {
+      height: 581px;
+      top: 100px;
+    }
+  }
 }

@@ -6,3 +6,14 @@
     width: 1000px;
   }
 }
+
+
+@media (max-width: 1000px) {
+  .slider {
+
+    img:nth-child(1) {
+      width: 768px;
+    }
+  }
+
+}

@@ -47,3 +47,31 @@
     font-size: 1.8em;
   }
 }
+
+
+/* tablet version style; display < 1000px  */
+@media (max-width: 1024px) {
+  .promo-player  {
+    width: 768px;
+    flex-wrap: wrap;
+  }
+  .promo-player__bg {
+    width: 618px;
+  }
+  &__text-content {
+    padding-left: 10px;
+  }
+
+
+  .promo-player__video-content {
+    height: auto;
+    padding-bottom: 20px;
+    margin-left: 10px;
+
+    img:nth-child(1) {
+      width: 708px;
+      height: auto;
+    }
+
+  }
+}

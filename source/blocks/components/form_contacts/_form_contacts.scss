@@ -21,8 +21,21 @@
     margin: 5px auto;
   }
 
-  // &__label {
-  //   // width: 50px;
-  //   // display: inline-block;
-  // }
 }
+
+
+/* tablet version style; display < 1000px  */
+@media (max-width: 1024px) {
+  .form_contacts {
+    width: 768px;
+    &__label {
+    margin-left: 60px;
+    display: block;
+    float: left;
+    width: 100px;
+    padding: 35px 0;
+    }
+  }
+}
+
+

@@ -26,3 +26,16 @@ width: 1000px;
   border-bottom-style: double;
 
 }
+@media (max-width: 1024px) {
+  .main-nav  {
+    width: 768px;
+  }
+
+}
+
+@media (max-width: 375px) {
+  .main-nav  {
+    width: 350px;
+  }
+
+}

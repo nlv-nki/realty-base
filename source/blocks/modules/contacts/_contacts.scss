@@ -16,3 +16,14 @@
   width: 400px;
   }
 }
+
+
+@media (max-width:1024px) {
+  .contacts {
+    width: 768px;
+    img {
+      display: none;
+    }
+  }
+
+}

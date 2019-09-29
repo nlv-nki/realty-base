@@ -5,26 +5,14 @@
 
 
 
+/* tablet version style; display < 1000px  */
+@media (max-width: 1024px) {
+  .service {
+    //width: 768px;
+    display: none;
 
+  }
 
-
-
-// .service__title {
-//   font-size: 2em;
-// }
-
-// .service__title:before {
-//   position: relative;
-//   content: '';
-//   background-color: $main-color;
-//   display: inline-block;
-//   color: $main-color;
-//   width: 5px;
-//   height: 50px;
-//   margin-right: 25px;
-//   top: 10px;
-// }
-
-
+}
 
 
