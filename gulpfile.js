@@ -20,7 +20,7 @@ $.gulp.task('dev', $.gulp.series(
         'fonts',
         'styles',
         'images',
-//      'scripts',
+      'scripts',
 //      'pug',
 //      'svg'
     )

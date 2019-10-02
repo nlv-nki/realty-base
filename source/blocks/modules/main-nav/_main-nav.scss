@@ -21,9 +21,9 @@ width: 1000px;
 
 
 .main-nav__item.active {
-  border-bottom-width: 10px;
+  border-bottom-width: 5px;
   border-bottom-color: #fff;
-  border-bottom-style: double;
+  border-bottom-style: solid;
 
 }
 @media (max-width: 1000px) {
@@ -35,8 +35,28 @@ width: 1000px;
 
 @media (max-width: 766px) {
   .main-nav  {
-    //width: 350px;
-    display: none;
+    width: 350px;
+    &__list {
+      background-color: #000;
+      position: absolute;
+      flex-direction: column;
+      z-index: 5;
+      padding: 10px 5px;
+      width: 355px;
+      display: none;
+    }
+
+    &__item {
+      width: 200px;
+      padding: 20px 0;
+    }
+
   }
 
 }
+
+
+.main-nav__btn {
+  color: #fff;
+}
+
