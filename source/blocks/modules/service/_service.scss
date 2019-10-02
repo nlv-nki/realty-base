@@ -6,13 +6,19 @@
 
 
 /* tablet version style; display < 1000px  */
-@media (max-width: 1024px) {
+@media (max-width: 1000px) {
   .service {
-    //width: 768px;
-    display: none;
+    width: 768px;
 
   }
-
 }
 
 
+
+/* mobile version style; display < 1000px  */
+@media (max-width: 765px) {
+  .service {
+    width: 375px;
+
+  }
+}

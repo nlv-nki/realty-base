@@ -15,7 +15,7 @@ width: 1000px;
   list-style-type: none;
   color: #fff;
   font-size: 18px;
-  height: 30px;
+  height: 40px;
 
 }
 
@@ -26,16 +26,17 @@ width: 1000px;
   border-bottom-style: double;
 
 }
-@media (max-width: 1024px) {
+@media (max-width: 1000px) {
   .main-nav  {
     width: 768px;
   }
 
 }
 
-@media (max-width: 375px) {
+@media (max-width: 766px) {
   .main-nav  {
-    width: 350px;
+    //width: 350px;
+    display: none;
   }
 
 }

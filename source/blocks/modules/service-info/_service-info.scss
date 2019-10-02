@@ -34,3 +34,17 @@
     }
   }
 }
+
+@media (max-width: 765px) {
+  .service-info  {
+    .steps {
+      width: 375px;
+    }
+    .section-title {
+      width: 300px;
+    }
+    .service-info__bg {
+      height: 1420px;
+    }
+  }
+}
