@@ -4,14 +4,22 @@ var menuBtn = document.querySelector(".main-nav__btn");
 menuBtn.addEventListener('click', () => {
 
   if (!menuBtn.classList.contains('is-active')) {
-    menu.style.display = 'block';
+    menu.style.display = 'flex';
     menuBtn.classList.add('is-active');
-    menuBtn.value = 'Close';
   }
 
   else {
     menuBtn.classList.remove('is-active');
     menu.style.display = 'none';
-    menuBtn.value = 'Open';
   }
 }, false);
+
+window.addEventListener("resize", () => {
+  if (window.innerWidth >= 768) {
+      menuBtn.classList.remove("is-active");
+      menu.style.display = 'flex';
+  }
+  else {
+    menu.style.display = 'none';
+  }
+});

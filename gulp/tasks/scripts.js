@@ -14,8 +14,8 @@ module.exports = function () {
             .pipe($.browserSync.reload({
                 stream: true
             }))
-           // .pipe(uglify())
-           // .pipe(rename({suffix: '.min'}))
-           // .pipe($.gulp.dest(scriptsPATH.ouput));
+         //   .pipe(uglify())
+         //   .pipe(rename({suffix: '.min'}))
+         //   .pipe($.gulp.dest(scriptsPATH.ouput));
     });
 };
