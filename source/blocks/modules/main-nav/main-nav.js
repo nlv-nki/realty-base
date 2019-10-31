@@ -5,6 +5,9 @@ menuBtn.addEventListener('click', () => {
 
   if (!menuBtn.classList.contains('is-active')) {
     menu.style.display = 'flex';
+   // menu.style.marginTop = '0px';
+    menu.style.transform = 'translateY(500px)';
+    console.log(menuBtn.style.marginTop)
     menuBtn.classList.add('is-active');
   }
 
