@@ -39,3 +39,19 @@
 }
 
 
+
+@media (max-width: 765px) {
+  .form_contacts {
+    width: 375px;
+
+    &__field {
+      width: 340px;
+    }
+    &__label {
+    padding: 0;
+    }
+
+
+  }
+}
+

@@ -27,3 +27,19 @@
   }
 
 }
+
+
+
+@media (max-width:765px) {
+  .contacts {
+    width: 375px;
+    img {
+      display: none;
+    }
+
+    .section-title {
+      margin-left: 0;
+    }
+  }
+
+}

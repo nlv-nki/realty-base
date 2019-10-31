@@ -1,4 +1,7 @@
 .footer {
+  .main-nav__item {
+    color: red;
+  }
   width: 100%;
   box-sizing: border-box;
   background-color: #080707;
@@ -15,5 +18,17 @@
     }
   .main-nav {
     margin: 0 auto;
+  }
+}
+
+
+@media (max-width:768px) {
+  .footer {
+    height: 100px;
+    min-height: 100px;
+    padding: 0;
+    .hamburger {
+      display: none;
+    }
   }
 }

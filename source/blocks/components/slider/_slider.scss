@@ -12,7 +12,21 @@
   .slider {
 
     img:nth-child(1) {
-      width: 768px;
+      //width: 768px;
+      max-width: 768px;
+      width:100%
+    }
+  }
+
+}
+
+@media (max-width: 766px) {
+  .slider {
+
+    img:nth-child(1) {
+      //width: 768px;
+      max-width: 375px;
+      width:100%
     }
   }
 

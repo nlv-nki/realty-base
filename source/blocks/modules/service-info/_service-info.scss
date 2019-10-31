@@ -26,11 +26,25 @@
       justify-content: center;
     }
     .section-title {
-      width: auto;
+      width: 600px;
     }
     .service-info__bg {
       height: 581px;
       top: 100px;
+    }
+  }
+}
+
+@media (max-width: 765px) {
+  .service-info  {
+    .steps {
+      width: 375px;
+    }
+    .section-title {
+      width: 300px;
+    }
+    .service-info__bg {
+      height: 1420px;
     }
   }
 }
