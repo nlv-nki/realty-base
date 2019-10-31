@@ -1,1 +1,1 @@
-# Лэндинг «realty-base»
+# Лэндинг «realty-base» (https://github.com/join)
